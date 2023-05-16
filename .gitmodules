@@ -1,3 +1,6 @@
 [submodule "submodules/repo"]
 	path = submodules/repo
 	url = https://github.com/oscariquelme01/demo-submodules-son.git
+[submodule "submodules/repo-son"]
+	path = submodules/repo-son
+	url = https://github.com/oscariquelme01/demo-submodules-son.git
