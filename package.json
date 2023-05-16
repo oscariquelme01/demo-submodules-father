@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "name": "git_repo",
+  "version": "1.0.0",
+  "description": "Este repositorio actuara como el repo padre del ejemplo, en nuestro caso, este repositorio equivale al de un juego.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscariquelme01/demo-submodules-father.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscariquelme01/demo-submodules-father/issues"
+  },
+  "homepage": "https://github.com/oscariquelme01/demo-submodules-father#readme"
+}
