@@ -2,24 +2,27 @@
 Este repositorio actuara como el repo padre del ejemplo, en nuestro caso, este repositorio equivale al de un juego.
 
 ## Clonar este repositorio
+`
 git clone https://github.com/oscariquelme01/demo-submodules-fater.git --recursive
+`
 
 ## Añadir un submodulo nuevo
 `
 git submodule add https://github.com/oscariquelme01/demo-submodules-son.git submodules/repo
 `
 
-## Actulizar un repositorio a su ultimo commit
+## Actualizar un repositorio a su ultimo commit
 `
 git submodule update --remote
 `
 
 ## Subir un cambio  hecho en el repositorio padre a un submodulo
-`
+```
 cd submolude/repo
 git add .
 git commit -m "switch let keyword to var"
-`
+git push
+```
 
 Consideraciones:
 
