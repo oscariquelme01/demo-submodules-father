@@ -14,6 +14,13 @@ git submodule add https://github.com/oscariquelme01/demo-submodules-son.git subm
 git submodule update --remote
 `
 
+## Subir un cambio  hecho en el repositorio padre a un submodulo
+`
+cd submolude/repo
+git add .
+git commit -m "switch let keyword to var"
+`
+
 Consideraciones:
 
 - El repo que intentemos añadir como submodulo debe tener al menos un commit

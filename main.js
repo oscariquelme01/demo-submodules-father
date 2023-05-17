@@ -1,6 +1,7 @@
-import { addFive, subFive } from './submodules/repo-son/reallyComplexCalculations.js'
+import { addFive, subFive, multiplyByFive } from './submodules/repo-son/reallyComplexCalculations.js'
 
-let radar = 5
-radar = addFive(radar)
+const radar = 5
 
-console.log(radar)
+console.log('5 + 5: ', addFive(radar))
+console.log('5 - 5: ', subFive(radar))
+console.log('5 * 5: ', multiplyByFive(radar))
