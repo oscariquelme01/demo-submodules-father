@@ -9,6 +9,11 @@ git clone https://github.com/oscariquelme01/demo-submodules-fater.git --recursiv
 git submodule add https://github.com/oscariquelme01/demo-submodules-son.git submodules/repo
 `
 
+## Actulizar un repositorio a su ultimo commit
+`
+git submodule update --remote
+`
+
 Consideraciones:
 
 - El repo que intentemos añadir como submodulo debe tener al menos un commit
